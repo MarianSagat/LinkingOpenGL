@@ -1,0 +1,15 @@
+1.) project-> properties -> C/C++ -> General -> Additional Include Directories : absolute path for: \glew-2.1.0\include
+( = including  header files)
+
+2.) project-> properties -> Linker -> General ->Additional Library Directories: absolute path :\GLFVopenGL\GLEWlinking\glew-2.1.0\bin\Release\Win32
+\GLFVopenGL\GLEWlinking\glew-2.1.0\lib\Release\Win32
+(=INCLUDING .LIB, .DLL )
+
+3.)project-> properties -> Linker -> Input -> Additional Dependencies: 
+opengl32.lib
+glew32.lib
+glu32.lib
+
+4.) COPY glew32.DLL into root dir ( = GLEWlinking)
+
+=> working
