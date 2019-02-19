@@ -1,0 +1,4 @@
+# ignore files
+Release/*
+.vs/*
+glfw-3.2.1.bin.WIN32/*
