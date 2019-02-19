@@ -13,3 +13,5 @@ glu32.lib
 4.) COPY glew32.DLL into root dir ( = GLEWlinking)
 
 => working
+
+BINARY 32, PROJECT RELEASE x86 (win33)
