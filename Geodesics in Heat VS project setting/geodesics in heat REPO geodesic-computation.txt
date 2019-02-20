@@ -1,0 +1,13 @@
+set and link all libraries OR source files:
+1.) Eigen (src)
+2.) Glew (.dll)
+3.) Glfw (.dll)
+4.) OpenGP (src)
+
+add these lines into main.cpp:
+#define _USE_MATH_DEFINES
+#define OPENGP_HEADERONLY = true
+#define _CRT_SECURE_NO_WARNINGS
+#include<cmath>
+
+repo of project: https://github.com/sywe1/geodesic-computation

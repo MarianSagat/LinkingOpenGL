@@ -1,0 +1,9 @@
+https://github.com/OpenGP/OpenGP
+Installing OpenGP - Header Only Option = FROM SOURCE FILES
+
+1A) INCLUDE SOURCE FILES, put folder OpenGP from repository: OpenGP/src/  
+into project root folder
+1B) project properties ->Configuration Properties -> C/C++ -> General->
+-> Additional Include Directories -> "Select folder which contains OpenGP folder with source files 
+( it is in repository OpenGP under subfolder src/)"
+2.) Don't forget #define OPENGP_HEADERONLY = true

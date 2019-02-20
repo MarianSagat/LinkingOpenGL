@@ -1,0 +1,9 @@
+http://eigen.tuxfamily.org/index.php?title=Main_Page
+1.) download latest stable release zip
+2.) unziped folder place into rood project dir of VS
+INCLUDE SOURCE FILES
+3.)project properties ->Configuration Properties -> C/C++ -> General->
+-> Additional Include Directories -> "Select folder which contains Eigen folder with source files" 
+for example path: eigen-eigen-323c052e1731\Eigen\src containes source files
+SO: INCLUDE eigen-eigen-323c052e1731 folder
+4.) That's all, intelsense either automatically detect EIGEN namespace or after restart VS
