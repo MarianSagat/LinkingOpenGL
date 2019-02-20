@@ -1,13 +1,18 @@
-set and link all libraries OR source files:
+repo of project: https://github.com/sywe1/geodesic-computation
+
+set and link all libraries OR source files (instractions are in this repository):
 1.) Eigen (src)
 2.) Glew (.dll)
 3.) Glfw (.dll)
 4.) OpenGP (src)
 
-add these lines into main.cpp:
+5.) add these lines into main.cpp:
 #define _USE_MATH_DEFINES
 #define OPENGP_HEADERONLY = true
 #define _CRT_SECURE_NO_WARNINGS
 #include<cmath>
 
-repo of project: https://github.com/sywe1/geodesic-computation
+6.) program crashed after action==GLFW_PRESS, when it was pressed some key : 1,2, ... other keys
+SOLVE: comment //renderer.init_data();
+in main.cpp -> CustomizeWindow::key_callback()
+
